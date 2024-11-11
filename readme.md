@@ -1,1 +1,1 @@
-# My exercise by learnign web foundation from pannaCollege 2024
+# My exercises by learnign web foundation from pannaCollege 2024
