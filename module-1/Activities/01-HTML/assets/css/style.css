@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0 10px;
+    font-size: 2rem;
+}
+
+section {
+    margin-left: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+.myo-myat-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px black;
+}
