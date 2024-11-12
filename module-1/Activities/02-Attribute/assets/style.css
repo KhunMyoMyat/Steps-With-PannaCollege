@@ -24,3 +24,10 @@ img {
     margin-bottom: 20px;
     box-shadow: 0 0 8px black;
 }
+
+section ul li {
+    background: #58f206c6;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    padding: 0 4px;
+}
