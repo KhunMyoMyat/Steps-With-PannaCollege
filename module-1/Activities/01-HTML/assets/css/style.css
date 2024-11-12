@@ -17,6 +17,10 @@ section h2 {
     font-size: 2rem;
 }
 
+section ul  {
+    padding-left: 40px;
+}
+
 .myo-myat-img {
     width: 200px;
     height: 200px;
