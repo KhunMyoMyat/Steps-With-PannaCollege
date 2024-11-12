@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header section */
+header {
+    background: rgba(0, 4, 233, 0.625);
+    padding: 10px;
+    color: white;
+}
+
+/* bio section starts */
+section {
+    padding: 10px;
+    margin-left: 8px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+.myat-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 0 20px 0;
+}
