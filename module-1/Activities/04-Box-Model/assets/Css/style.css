@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 
 section {
     width: 600px;
@@ -10,12 +7,13 @@ section {
     
 }
 
+
 img {
     
     background-color: lightblue;
     width: 200px;
     height: 200px;
     border: 10px solid rgb(30, 3, 185);
-    margin: 20px;
+    margin: 20px 15px;
     padding: 20px;
 }
