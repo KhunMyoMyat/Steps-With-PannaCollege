@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border: 15px solid black;
+    
+}
+
+img {
+    
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(30, 3, 185);
+    margin: 20px;
+    padding: 20px;
+}
