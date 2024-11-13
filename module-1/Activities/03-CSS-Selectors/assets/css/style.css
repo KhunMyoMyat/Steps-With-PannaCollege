@@ -3,11 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(255, 250, 196);
+}
 /* header section */
 header {
-    background: rgba(0, 4, 233, 0.625);
-    padding: 10px;
+    background: rgba(0, 3, 175, 0.767);
+    padding: 25px 0 25px 15px;
     color: white;
+    margin: 20px 0;
 }
 
 /* bio section starts */
@@ -18,10 +23,67 @@ section {
 
 section h2 {
     font-size: 30px;
+    margin-bottom: 20px;
+}
+
+figure {
+    width: 200px;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 0 3px inset rgba(0, 0, 255, 0.534);
+    transition: box-shadow 0.16s;
+}
+
+.name:hover {
+    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.304);
 }
 
 .myat-img {
     width: 200px;
     height: 200px;
     border-radius: 20px 0 20px 0;
+    box-shadow: 1px 0 4px rgba(6, 6, 190, 0.381);
+    transition: box-shadow 0.16s;
+}
+
+.myat-img:hover {
+    box-shadow: 1px 0 5px rgba(0, 0, 255, 0.677);
+}
+
+/* contact info section */
+.contact-info-container {
+    background: #ede9e9e3;
+    border-radius: 10px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.282);
+    margin: 25px 0;
+}
+
+.contact-info-container ul {
+    margin-left: 60px;
+    margin-bottom: 18px;
+}
+
+.contact-info-container ul li {
+    margin-bottom: 8px;
+}
+
+/* footer */
+footer {  
+    background-color: blue;
+    padding: 30px 0 30px 10px;   
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
 }
