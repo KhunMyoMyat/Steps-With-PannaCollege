@@ -32,3 +32,25 @@ main {
     border: 10px solid black;
     margin: 20px auto;
 }
+
+img {
+    display: block;
+}
+
+/* square 1*/
+#relative-box-2 {
+    position: relative;
+    left: 200px;
+}
+
+
+/* square 2  */
+.absolute-container {
+    position: relative;
+}
+
+#absolute-box-2 {
+    position: absolute;
+    top: 0;
+    right: -250px;
+}
