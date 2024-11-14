@@ -1,0 +1,18 @@
+/* header section starts */
+/* header section ends */
+
+/* main content section starts */
+.content img {
+    max-height: 200px;
+}
+/* main content section ends */
+
+
+/* benefits section starts */
+.benefits img {
+    max-width: 150px;
+}
+ /* benefits section ends */
+
+/* footer section starts */
+ /* footer section ends */
