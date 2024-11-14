@@ -54,7 +54,20 @@ p {
 }
 /* header section ends */
 
+
+
+
+
 /* main content section starts */
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("../imgs/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
