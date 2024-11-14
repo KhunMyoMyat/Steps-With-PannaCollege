@@ -34,7 +34,7 @@ p {
 .header div {
     float: right;
     margin-right: 20px;
-    /* padding-top: 15px; */
+    padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -53,8 +53,6 @@ p {
     text-decoration: none;
 }
 /* header section ends */
-
-
 
 
 
@@ -105,11 +103,34 @@ p {
 
 
 /* benefits section starts */
+.benefits {
+    background: #2589bd;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefits img {
+    display: block;
     max-width: 150px;
+    margin: 10px auto;
 }
  /* benefits section ends */
 
+ 
 /* footer section starts */
 .footer {
     text-align: center;
