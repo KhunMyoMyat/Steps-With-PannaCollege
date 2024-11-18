@@ -20,11 +20,17 @@ p {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .header h1 {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 48px;
+    
 }
 
 .seo {
@@ -32,11 +38,23 @@ p {
 }
 
 .header div {
-    float: right;
+    /* float: right; */
     margin-right: 20px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: flex;
+}
+
+@media (max-width: 1090px) {
+    .header div {
+        font-size: 16px;
+    }
+
+    .header a:hover {
+        opacity: 0.8;
+        font-size: 16px;
+    }
 }
 
 .header div ul {
@@ -54,11 +72,14 @@ p {
     transition: font-size 0.16s;
 }
 
-.header a:hover {
-    opacity: 0.7;
-    font-size: 23px;
-    
+@media (min-width: 1091px) {
+    .header a:hover {
+            opacity: 0.7;
+            font-size: 23px;
+        }
 }
+
+
 
 .header a:active {
     color: #2589bd;
