@@ -166,10 +166,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -177,51 +178,82 @@ section {
 }
 
 .secondary-border {
-    border-color: #39a6b2;
+    border-color: var(--secondary-color);
 }
 /* Section Title style ends */
 
 
 
 /* What We Do section starts */
-
 .intro p {
     line-height: 1.7;
     font-size: 20px;
     margin: 0 auto;
     width: 80%;
-    color: #39a6b2;
-}
-
-.steps {
+    color: var(--secondary-color);
     text-align: center;
+}
+/* what we do section ends */
+
+
+/* What You Do section starts */
+.steps {
     background: var(--primary-color);
 }
 
-.steps div {
-    margin-bottom: 80px;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
-    color: #024e76;
+.step h3 {
+    color: var(--tertiary-color);
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
-    color: #39a6b2;
-    font-size: 23px;
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.steps span {
-    font-size: 38px;
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--tertiary-color);
+}
+/* what you do section ends */
+
+
+
+/* Meet The Trainer section starts */
 .trainers {
     text-align: center;
 }
