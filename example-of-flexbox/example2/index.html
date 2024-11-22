@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
+        display: flex;
+        background-color: lightblue;
+        padding: 20px 15px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      header a {
+        margin: 0 30px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(15, 129, 0);
+      }
+
+      @media (max-width: 700px) {
+        header {
+          color: white;
+          display: flex;
+          text-align: center;
+        }
+
+        nav {
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 400px) {
+        header {
+          color: red;
+        }
+
+        nav {
+          flex-direction: column;
+        }
+      }
+      .dog-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 30px;
+      }
+
+      .dog-bio {
+        flex-basis: 20rem;
+        flex-grow: 1;
+        margin: 5px;
+        background: lightcoral;
+        padding: 8px;
+      }
+
+      .dog-bio img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello Dog Lover</h1>
+
+      <nav>
+        <a href="#alex">Alex</a>
+        <a href="#rambo">Rambo</a>
+        <a href="#leo">Leo</a>
+      </nav>
+    </header>
+
+    <div class="dog-row">
+      <div class="dog-bio" id="alex">
+        <img src="./dog1 - Copy.jpg" alt="" />
+        <h2>Alex</h2>
+        <p>Age = 7 years</p>
+        <p>Color = gray</p>
+      </div>
+
+      <div class="dog-bio" id="rambo">
+        <img src="./dog2 - Copy.jpg" alt="" />
+        <h2>Rambo</h2>
+        <p>Age = 5 years</p>
+        <p>Color = gray</p>
+      </div>
+
+      <div class="dog-bio" id="leo">
+        <img src="./dog3- Copy.jpg" alt="" />
+        <h2>Leo</h2>
+        <p>Age = 4 years</p>
+        <p>Color = gray</p>
+      </div>
+    </div>
+  </body>
+</html>
