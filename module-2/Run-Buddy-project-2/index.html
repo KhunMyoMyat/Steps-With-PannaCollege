@@ -53,12 +53,12 @@
       <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>
-          Fill out this form and one of our trainers will schedule a consult
+          Fill out this form and one of our trainers will schedule a consult.
         </p>
         <!-- Add Sign Up "CTA" form element -->
         <!-- CTA means Call To Action -->
         <form>
-          <label for="name">Enter full name</label>
+          <label for="name">Your Name</label>
           <input
             type="text"
             placeholder="Your Name"
@@ -69,7 +69,7 @@
             autofocus
           />
 
-          <label for="email">Enter email address</label>
+          <label for="email">Your Email</label>
           <input
             type="text"
             placeholder="Emaail Address"
@@ -78,32 +78,38 @@
             class="form-input"
           />
 
-          <label for="tel">Enter a telephone number</label>
+          <label for="phone">Phone Number</label>
           <input
-            type="text"
+            type="tel"
             placeholder="Phone Number"
-            name="tel"
-            id="tel"
+            name="phone"
+            id="phone"
             class="form-input"
           />
 
           <p>
             Have you worked out with a trainer before?
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-yes" />
+              <label for="trainer-yes">Yes</label>
+            </span>
 
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
+            <span class="radio-wrapper">
+              <input type="radio" name="trainer-confirm" id="trainer-no" />
+              <label for="trainer-no">No</label>
+            </span>
           </p>
 
           <p>
-            <label for="checkbox"
-              >I acknowledge that I am at least 18 years of age.</label
-            >
-            <input type="checkbox" name="age-confirm" id="checkbox" />
+            <span class="checkbox-wrapper">
+              <input type="checkbox" name="checkpoint1" id="checkbox" />
+              <label for="checkbox"
+                >I acknowledge that I am at least 18 years of age.
+              </label>
+            </span>
           </p>
 
-          <button type="submit">Get Running</button>
+          <button type="submit">Get Running!</button>
         </form>
       </div>
     </section>
