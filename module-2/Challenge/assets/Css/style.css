@@ -78,7 +78,6 @@ header a {
     background-color: rgb(83, 208, 250);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
     flex-wrap: wrap;
-    border-radius: 30% 0 50% 0;
 }
 
 .name-intro-container {
@@ -95,6 +94,7 @@ header a {
     background: rgb(241, 238, 238);
     position: relative;
     border-radius: 10px;
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.37);
 }
 
 .name-intro {
@@ -123,7 +123,8 @@ header a {
     border-radius: 30px;
     box-shadow: 0 0 30px black;
     height: 600px;
-    
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
  /* home section ends */
@@ -132,13 +133,24 @@ header a {
 
  /* MyWork section starts */
 #mywork {
-    display: flex;  
-    padding: 10rem 3rem;
-    gap: 20px;
-    flex-wrap: wrap;
     background-color: rgb(83, 208, 250);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
-    border-radius: 0 20%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset; 
+}
+
+.section-title {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.085);
+    margin: 0 auto;
+    width: 50%;
+}
+
+.project-container {
+    display: flex;
+        padding: 3rem 4rem 9rem 4rem;
+        gap: 20px;
+        flex-wrap: wrap;
 }
 
 .run-buddy, .youtube-main-feed {
@@ -159,7 +171,9 @@ header a {
     width: 100%;
     height: 90%;
     border-radius: 9px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 
