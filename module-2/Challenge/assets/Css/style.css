@@ -73,6 +73,7 @@ header a {
     transition: background 0.16s;
 }
 
+
 .right-side ul li:hover {
     background: white;
     border-radius: 8px;
