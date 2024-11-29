@@ -69,8 +69,9 @@ header a {
 }
 /* header ends */
 
+
 /* home section starts */
-#home {
+#bio {
     display: flex;
     padding: 90px 20px;
     background-color: rgb(83, 208, 250);
@@ -114,6 +115,38 @@ header a {
     font-family: general, Arial, Helvetica, sans-serif;
     padding-bottom: 3rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.085);
+}
+
+.mywork-bt {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    border: none;
+    background-color: rgb(83, 208, 250);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: general, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.contactme-bt {
+    position: absolute;
+    top: 250px;
+    right: 30px;
+    border: none;
+    background-color: rgb(83, 208, 250);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: general, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.mywork-bt:hover, .contactme-bt:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+}
+
+.mywork-bt:active, .contactme-bt:active {
+    opacity: 0.5;
 }
 
 .myat-bg-container {
