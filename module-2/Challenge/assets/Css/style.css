@@ -27,6 +27,9 @@ header {
     padding: 10px 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.085);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 
 
@@ -66,6 +69,14 @@ header a {
 
 .right-side ul li {
     list-style: none;
+    padding: 10px 15px;
+    transition: background 0.16s;
+}
+
+.right-side ul li:hover {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.37);
 }
 /* header ends */
 
@@ -127,6 +138,7 @@ header a {
     border-radius: 5px;
     font-family: general, Arial, Helvetica, sans-serif;
     cursor: pointer;
+    transition: box-shadow 0.16s;
 }
 
 .contactme-bt {
@@ -139,6 +151,7 @@ header a {
     border-radius: 5px;
     font-family: general, Arial, Helvetica, sans-serif;
     cursor: pointer;
+    transition: box-shadow 0.16s;
 }
 
 .mywork-bt:hover, .contactme-bt:hover {
