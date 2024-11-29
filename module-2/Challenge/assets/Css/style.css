@@ -4,33 +4,56 @@
     box-sizing: border-box;
 }
 
+body {
+    padding-bottom: 1000px;
+    background: rgb(0, 0, 0);
+   
+}
+
+@font-face {
+    font-family: heading;
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: general;
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Medium.ttf);
+}
+
 /* header starts */
 header {
     display: flex;
     justify-content: space-between;
-    background: lightblue;
+    background-color: rgb(83, 208, 250);
     align-items: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.085);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
 }
 
 
 header a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: general, Arial, Helvetica, sans-serif;
 }
 
 .left-side {
     display: flex;
     gap: 1rem;
     flex-direction: row;
-    flex: 60%;
-   
+    flex: 60%;  
 }
 
-.myo-myat-icon {
+.myat-icon {
     width: 60px;
     height: 60px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.left-side h1 {
+    font-family: heading, Arial, Helvetica, sans-serif;
 }
 
 .right-side {
@@ -47,3 +70,58 @@ header a {
     list-style: none;
 }
 /* header ends */
+
+/* home section starts */
+#home {
+    display: flex;
+    padding: 90px 20px;
+    background-color: rgb(83, 208, 250);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.485) inset;
+}
+
+.name-intro-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.name-intro-shape {
+    height: 400px;
+    width: 310px;
+    background: rgb(241, 238, 238);
+    position: relative;
+    border-radius: 10px;
+}
+
+.name-intro {
+      position: absolute;
+      top: -20px;
+      left: 10px;
+     letter-spacing: 1px; 
+}
+
+.name-intro span {
+    font-size: 2.5rem;  
+}
+
+.my-strong-point {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-family: general, Arial, Helvetica, sans-serif;
+}
+
+.myat-bg-container {
+    width: 50%;
+    
+}
+
+.myat-bg {
+    border-radius: 30px;
+    box-shadow: 0 0 30px black;
+    height: 600px;
+}
+
+ /* home section ends */
