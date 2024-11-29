@@ -78,6 +78,7 @@ header a {
     background-color: rgb(83, 208, 250);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
     flex-wrap: wrap;
+    border-radius: 30% 0 50% 0;
 }
 
 .name-intro-container {
@@ -133,22 +134,34 @@ header a {
 #mywork {
     display: flex;  
     padding: 10rem 3rem;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     background-color: rgb(83, 208, 250);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
+    border-radius: 0 20%;
 }
 
 .run-buddy, .youtube-main-feed {
     flex: 20rem;
     flex-grow: 1;
+   
+}
+
+.project-name {
+    height: 10%;
+    text-align: center;
+    margin: 15px 0;
+    font-family: heading, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 
 .run-buddy img, .youtube-main-feed img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 9px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
 }
+
 
 
  /* MyWork section ends */
