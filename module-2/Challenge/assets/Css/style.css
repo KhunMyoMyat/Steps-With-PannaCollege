@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: rgb(0, 0, 0);
-}
 
 @font-face {
     font-family: heading;
@@ -88,7 +85,7 @@ header a {
 /* header ends */
 
 
-/* home section starts */
+/* bio section starts */
 #bio {
     display: flex;
     padding: 90px 20px;
@@ -181,7 +178,7 @@ header a {
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
- /* home section ends */
+ /* bio section ends */
 
 
 
@@ -324,6 +321,9 @@ address {
         font-size: 1.1rem;
     }
     
+    .footer-right-side {
+        padding-right: 30px;
+    }
  }
  /* max width 950px breakpoint ends */
 
@@ -381,6 +381,108 @@ address {
             font-size: 13px;
          }
 
+    .myat-bg {
+        height: 350px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .project-name {
+        font-size: 14px;
+    }
+
+    .address-icon {
+        height: 60px;
+    }
+
+    .live-in {
+        font-size: 1rem;
+    }
+
+    .my-email-container {
+        font-size: 16px;
+    }
+
+    .footer-right-side {
+        padding-right: 20px;
+    }
+
+    .facebook-icon, .line-icon {
+        height: 40px;
+        margin-right: 1rem;
+    }
+
 }
  /* max width 785px breakpoint ends */
+
+ /* max width 580px breakpoint starts */
+ @media (max-width: 580px) {
+
+    header {
+        position: static;
+    }
+   .right-side ul {
+    display: block;
+    text-align: center;
+   }
+
+   .right-side ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.058);
+    margin: 0 auto 0 auto;
+    width: 50%;
+   }
+
+   #bio {
+    display: block;
+    text-align: center;
+    padding: 30px 10px;
+   }
+
+   .name-intro {
+    font-size: 16px;
+   }
+
+   .name-intro span {
+    font-size: 1.3rem;
+   }
+   
+
+   .mywork-bt, .contactme-bt {
+    font-size: 10px;
+   }
+
+   .section-title {
+    padding: 1rem 0;
+   }
+
+   .project-container {
+    display: block;
+    padding: 1rem 2rem;
+   }
+
+   address {
+    padding: 25px 10px 10px 25px;
+   }
+
+   .address-icon {
+    height: 40px;
+    margin-right: 10px;
+   }
+
+   .live-in {
+    font-size: 12px;
+   }
+
+   .my-email-container {
+    font-size: 10px;
+   }
+
+   .facebook-icon, .line-icon  {
+    height: 25px;
+   }
+  
+ }
+ /* max width 580px breakpoint ends */
  /* Media Queries ends */ 
