@@ -79,6 +79,10 @@ header a {
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.37);
 }
+
+.right-side ul li:active {
+    opacity: 0.5;
+}
 /* header ends */
 
 
@@ -196,9 +200,9 @@ header a {
 
 .project-container {
     display: flex;
-        padding: 3rem 4rem 9rem 4rem;
-        gap: 20px;
-        flex-wrap: wrap;
+    padding: 3rem 4rem 9rem 4rem;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .run-buddy, .youtube-main-feed {
@@ -215,13 +219,26 @@ header a {
     font-size: 1.5rem;
 }
 
-.run-buddy img, .youtube-main-feed img {
+.run-buddy-img, .youtube-main-img {
     width: 100%;
-    height: 90%;
+    height: 100%;
     border-radius: 9px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
     margin-bottom: 10px;
     padding: 10px;
+    object-fit: cover;
+    object-position: left;
+    transition: box-shadow 0.16s, padding 0.16s;
+}
+
+
+.run-buddy-img:hover, .youtube-main-img:hover {
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.37);
+    padding: 11px;   
+}
+
+.run-buddy-img:active, .youtube-main-img:active {
+    opacity: 0.5;
 }
 
  /* MyWork section ends */
