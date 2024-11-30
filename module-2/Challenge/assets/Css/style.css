@@ -44,6 +44,7 @@ header a {
     gap: 1rem;
     flex-direction: row;
     flex: 60%;  
+    align-items: center;
 }
 
 .myat-icon {
@@ -55,6 +56,7 @@ header a {
 
 .left-side h1 {
     font-family: heading, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 .right-side {
@@ -92,7 +94,6 @@ header a {
     padding: 90px 20px;
     background-color: rgb(83, 208, 250);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37) inset;
-    flex-wrap: wrap;
 }
 
 .name-intro-container {
@@ -108,6 +109,7 @@ header a {
     width: 310px;
     background: rgb(241, 238, 238);
     position: relative;
+    border-left: 2px solid rgb(83, 208, 250);
     border-radius: 10px;
     box-shadow: 10px 0 15px rgba(0, 0, 0, 0.37);
 }
@@ -202,7 +204,6 @@ header a {
     display: flex;
     padding: 3rem 4rem 9rem 4rem;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .run-buddy, .youtube-main-feed {
@@ -289,3 +290,97 @@ address {
     margin-right: 2rem;
 }
  /* ContactMe section ends */
+
+ /* Media Queries starts */ 
+ /* max width 950px breakpoint starts */
+ @media (max-width: 950px) {
+    .left-side h1 {
+        font-size: 1.5rem;
+    }
+
+    .right-side ul li a {
+        font-size: 16px;
+    }
+
+
+    .myat-bg {  
+        height: 450px;  
+    }
+
+    .run-buddy,
+    .youtube-main-feed {
+        flex: 15rem;
+    }
+
+    .project-name {
+        font-size: 1.1rem;
+    }
+
+    .live-in {
+        font-size: 1.4rem;
+    }
+
+    .my-email-container {
+        font-size: 1.1rem;
+    }
+    
+ }
+ /* max width 950px breakpoint ends */
+
+
+ /* max width 785px breakpoint starts */
+ @media (max-width: 785px) {
+    header {
+        display: block;
+    }
+
+    .left-side, .right-side {
+        justify-content: center;
+    }
+
+    .name-intro-shape {
+        border-left: 2px solid black;
+        background: #91712b10;
+        height: 300px;
+        width: 210px;
+    }
+
+    .name-intro {
+        font-size: 1rem;
+        top: -13px;
+    }
+
+    .name-intro span {
+        font-size: 1.5rem;
+        text-shadow: none;
+    }
+
+    .my-strong-point {
+        font-size: 12px;
+    }
+
+    .mywork-bt {
+        left: 10px;
+        font-size: 12px;
+        background: white;
+        box-shadow: 0 0 8px black;
+        padding: 5px 10px;
+    }
+
+    .contactme-bt {
+        right: 10px;
+        font-size: 12px;
+        background: white;
+        box-shadow: 0 0 8px black;
+        padding: 5px 10px;
+     }
+
+         .mywork-bt:hover,
+         .contactme-bt:hover {
+            box-shadow: 0 0 10px black;
+            font-size: 13px;
+         }
+
+}
+ /* max width 785px breakpoint ends */
+ /* Media Queries ends */ 
