@@ -1,0 +1,111 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Signika:wght@300..700&display=swap');
+
+:root {
+    --primary: #ffa400;
+    --black: #555;
+    --white: #eee;
+    --gb-dark: #202020;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika';
+    transition: 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Chewy';
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* nav starts */
+nav {
+    background: var(--white);
+    padding: 1rem 0;
+
+}
+nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--primary);
+    font-size: 2rem;
+}
+.logo:hover {
+    color: var(--black);
+}
+
+#toggle {
+    color: var(--primary);
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: .7rem;
+    cursor: pointer;
+    display: none;
+}
+
+nav .navbar li {
+    display: inline-block;
+    margin-right: .3rem;
+}
+nav .navbar li a {
+    display: block;
+    padding: .7rem;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+nav .navbar li a:hover {
+    color: var(--black);
+}
+
+ /* nav ends */
+
+ /* media query starts */
+ @media (max-width: 1200px) {
+    .container {
+        max-width: 980px;
+    }
+    
+ }
+
+  @media (max-width: 992px) {
+      .container {
+          max-width: 750px;
+      }
+
+  }
+
+   @media (max-width: 768px) {
+       .container {
+           max-width: 550px;
+       }
+
+   }
+
+    @media (max-width: 576px) {
+        .container {
+            max-width: 100%;
+         }
+    
+    }
+ /* media query ends */
