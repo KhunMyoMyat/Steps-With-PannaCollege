@@ -46,7 +46,7 @@ nav .container {
     align-items: center;
 }
 
-.logo {
+nav .logo {
     color: var(--primary);
     font-size: 2rem;
 }
@@ -99,6 +99,34 @@ nav .navbar li a:hover {
        .container {
            max-width: 550px;
        }
+       
+       /* nav */
+       nav {
+        position: relative;
+       }
+
+       nav #toggle {
+        display: block;
+       }
+
+       nav .navbar {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        background: var(--white);
+        border-top: 1px solid var(--black);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+       }
+       nav .navbar li {
+        display: block;
+        text-align: center;
+       }
+       nav .navbar.active {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+       }
+
+
 
    }
 
