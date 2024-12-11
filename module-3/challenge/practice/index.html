@@ -3,31 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
+    <title>password Generator</title>
+
+    <!-- css link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
+    <div class="container">
+      <div class="header">
         <h1>Password Generator</h1>
-      </header>
+      </div>
+
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+
         <div class="card-body">
           <textarea
             readonly
-            id="password"
-            placeholder="Your Secure Password"
+            id="show-pw-area"
+            placeholder="Secure Your Password"
           ></textarea>
         </div>
+
         <div class="card-footer">
-          <button id="makepw" class="btn">Generate Password</button>
+          <button class="generate-pw-bt">Generate Password</button>
         </div>
       </div>
     </div>
+
+    <!-- js link -->
     <script src="script.js"></script>
   </body>
 </html>
