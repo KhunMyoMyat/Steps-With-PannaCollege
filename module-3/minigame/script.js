@@ -4,16 +4,13 @@ var playerHealth = 100;
 var playerAttack = 10;
 var playerMoney = 10;
 
-// default enemy's name
-var enemyName = "Roborto";
+// will loop enemy's name to make 3 round
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
-// fiht function
-var fight = function () {
-  // alert players that they are starting the round
-  window.alert("Welcome to Robot Gladiators!");
-
+// fiht function (now with parameter for enemy's name)
+var fight = function (enemyName) {
   //   ask players if they would like to fight or run
   var promptFight = window.prompt(
     "Would you like to fight or skip? enter FIGHT OR SKIP to choose. "
