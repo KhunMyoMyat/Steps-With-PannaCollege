@@ -96,13 +96,39 @@ nav .navbar li a:hover {
 
 /* home slide starts */
 #home .owl-carousel .home-slide {
-  height: 30rem;
+  height: 35rem;
+  position: relative;
 }
 
-.owl-carousel .home-slide img {
+#home .owl-carousel .home-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+#home .home-slide .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  text-align: center;
+}
+#home .home-slide .content h1 {
+  color: var(--primary);
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+#home .home-slide .content h2 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 /* home slide ends */
 
