@@ -5,14 +5,14 @@ h1.textContent = "Welcome to my page";
 body.appendChild(h1);
 h1.setAttribute(
   "style",
-  "color: red; font-size: 3rem; background: lightblue; width: fit-content; padding: 2rem 1rem; "
+  "margin:auto; width:50%; color:red; font-size:3rem; width:fit-content; padding:2rem 1rem; "
 );
 
 // -------------------------------------
 
 var info = document.createElement("div");
 body.appendChild(info);
-info.setAttribute("style", "margin: auto; width: 50%; text-align:center;");
+info.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 
 var img = document.createElement("img");
 info.appendChild(img);
@@ -34,3 +34,22 @@ nameEl.textContent = "His name is Jax.";
 var favorite = document.createElement("div");
 body.appendChild(favorite);
 favorite.textContent = "My favorite food are:";
+
+var list = document.createElement("ol");
+favorite.appendChild(list);
+
+var li1 = document.createElement("li");
+list.appendChild(li1);
+li1.textContent = "Apples";
+
+var li2 = document.createElement("li");
+list.appendChild(li2);
+li2.textContent = "Pizza";
+
+var li3 = document.createElement("li");
+list.appendChild(li3);
+li3.textContent = "Dumplings";
+
+var li4 = document.createElement("li");
+list.appendChild(li4);
+li4.textContent = "Cupcakes";
