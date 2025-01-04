@@ -229,6 +229,45 @@ nav .navbar li a:hover {
 }
 /* gallery ends */
 
+/* contact starts */
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid goldenrod;
+}
+
+#contact form .form-input {
+  width: 47%;
+}
+
+#contact form .form-input input,
+#contact form .form-input textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--bg-gray);
+}
+
+#contact form .form-input input::placeholder,
+#contact form .form-input textarea::placeholder {
+  font-size: 1rem;
+}
+
+#contact form button {
+  width: 100%;
+  background-color: var(--white);
+  border: 1px solid var(--bg-gray);
+  font-weight: bold;
+  padding: 1rem;
+  cursor: pointer;
+  color: var(--black);
+}
+/* contact ends */
+
 /* media query starts */
 @media (max-width: 1200px) {
   .container {
