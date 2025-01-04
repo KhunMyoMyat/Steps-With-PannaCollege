@@ -267,6 +267,34 @@ nav .navbar li a:hover {
 }
 /* contact ends */
 
+/* info starts */
+.info .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info .container .box {
+  width: 33%;
+}
+.info .container .box h3 {
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.info .container .box i {
+  margin-right: 0.5rem;
+}
+
+.info .container .box p {
+  margin-bottom: 0.5rem;
+}
+.info .container .box a {
+  color: var(--primary);
+}
+
+/* info ends */
+
 /* media query starts */
 @media (max-width: 1200px) {
   .container {
@@ -324,6 +352,12 @@ nav .navbar li a:hover {
   /* contact */
   #contact form .form-input {
     width: 100%;
+  }
+
+  /* info */
+  .info .container .box {
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
 
