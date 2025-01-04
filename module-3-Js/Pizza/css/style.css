@@ -44,6 +44,24 @@ section {
   padding: 5rem 0.5rem;
 }
 
+.title {
+  color: var(--primary);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2.3rem;
+  letter-spacing: 0.2rem;
+}
+.title::after {
+  content: "";
+  width: 7rem;
+  height: 0.1rem;
+  margin: 2rem auto;
+  display: block;
+  background-color: var(--primary);
+}
+/* global ends */
+
 /* nav starts */
 nav {
   background: var(--white);
