@@ -320,6 +320,28 @@ footer .social a {
 }
 /* footer ends */
 
+/* up button starts */
+#up {
+  background: var(--primary);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4rem;
+  border: 3px solid var(--white);
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* display: none; */
+}
+
+#up.active {
+  display: block !important;
+}
+/* up button ends */
+
 /* media query starts */
 @media (max-width: 1200px) {
   .container {
