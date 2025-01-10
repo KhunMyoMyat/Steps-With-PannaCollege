@@ -20,3 +20,29 @@ body {
   flex-direction: column;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* header starts */
+header {
+  background: var(--secondary);
+  padding: 30px 25px;
+  border-bottom: 5px solid var(--primary);
+}
+
+header p {
+  color: var(--tertiary);
+  margin: 5px 0 20px;
+  font-size: 2rem;
+}
+
+header p,
+header li {
+  font-size: 1.6rem;
+}
+
+.page-title {
+  color: var(--primary);
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 4.5rem;
+}
+/* header ends */
