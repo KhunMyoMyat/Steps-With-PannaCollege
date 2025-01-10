@@ -24,6 +24,7 @@ body {
   padding: 3% 10%;
   border-radius: 10px;
   text-align: center;
+  display: none;
 }
 
 #start-container h2 {
@@ -47,3 +48,21 @@ input {
   outline: none;
 }
 /* start container ends */
+
+/* quiz container starts */
+.quiz-container {
+  height: 100V;
+  background: var(--bg-tertiary);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  position: relative;
+  top: 10%;
+  transform: translateY(-5%);
+  text-align: center;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  padding: 40px;
+}
+/* quiz container ends */
