@@ -16,3 +16,34 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+/* start container starts */
+#start-container {
+  background: var(--bg-tertiary);
+  font-size: 1.5rem;
+  padding: 3% 10%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#start-container h2 {
+  padding-bottom: 5%;
+}
+
+button {
+  background: var(--bg-secondary);
+  color: whitesmoke;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+input {
+  padding: 17px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+/* start container ends */
