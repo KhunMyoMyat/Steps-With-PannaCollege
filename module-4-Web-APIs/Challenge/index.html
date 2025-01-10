@@ -9,8 +9,13 @@
   <body>
     <div id="start-container">
       <h2>Welcome to the Quiz!</h2>
-      <input type="text" id="username" placeholder="Enter you name" />
-      <button>start Quiz</button>
+      <input
+        type="text"
+        id="username"
+        placeholder="Enter you name"
+        onfocus="clearPlaceholder(this)"
+      />
+      <button onclick="startQuiz()">start Quiz</button>
     </div>
 
     <div class="quiz-container" id="quiz-container">
@@ -20,5 +25,7 @@
       <button id="next-question">Submit</button>
       <div id="feedback"></div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

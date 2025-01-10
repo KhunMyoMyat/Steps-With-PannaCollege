@@ -24,7 +24,6 @@ body {
   padding: 3% 10%;
   border-radius: 10px;
   text-align: center;
-  display: none;
 }
 
 #start-container h2 {
@@ -64,5 +63,23 @@ input {
   max-width: 90%;
   margin: auto;
   padding: 40px;
+  display: none;
 }
+
+#timer {
+  font-size: 24px;
+  margin-bottom: 5%;
+  color: var(--secondary);
+}
+
+#question {
+  font-size: 1.3rem;
+  background: var(--bg-primary);
+  color: var(--tertiary);
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
 /* quiz container ends */
