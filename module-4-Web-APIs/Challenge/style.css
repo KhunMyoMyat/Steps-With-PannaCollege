@@ -1,0 +1,18 @@
+:root {
+  --primary: #f2f2f2;
+  --secondary: #9a2525de;
+  --tertiary: #036f73d6;
+  --bg-primary: #e5e5e5;
+  --bg-secondary: #587da1;
+  --bg-tertiary: #ccbba3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
